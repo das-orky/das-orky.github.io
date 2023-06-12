@@ -60,9 +60,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true, #false (default)
+search_full_content      : true, #false (default)
+search_provider          : google # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
@@ -106,14 +106,14 @@ analytics:
 # Site Author
 author:
   name             : "Manas Jyoti Das"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  avatar           : "/assets/images/my_pic.png"
+  bio              : "While tackling a problem, do not fear to zoom into the chaotic fractal dimensional world. But with a stopping criterion."
+  location         : "Columbia, Missouri"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:manas.ork at google mail"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,7 +125,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/das-orky/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/0rky"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -288,13 +291,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments:  true
+      comments:  #true
       share: true
       related: true
-
-comments:
-  provider: "facebook"
-  facebook:
-    appid: # optional
-    num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
