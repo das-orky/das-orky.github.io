@@ -1,12 +1,28 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About Me"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Genome Posts"
+    url: https://www.github.com/
+  - title: "Genomics Posts"
     url: "/gene/"
+  - title: "Projects"
+    url: "/project_home/"
   - title: "Book Collections"
-    url: http://www.google.com
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: "/book_collection/"
+
+foo:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: "/genomics/genomics_posts_1"
+      - title: "Structure"
+        url: "/genomics/genomics_posts_1"
+      - title: "Installation"
+        url: "/genomics/genomics_posts_1"
+      - title: "Upgrading"
+        url: "/genomics/genomics_posts_1"
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: "/genomics/genomics_posts_1"
+      - title: "Overriding Theme Defaults"
+        url: "/genomics/genomics_posts_1"
