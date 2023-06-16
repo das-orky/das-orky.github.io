@@ -6,7 +6,7 @@ main:
     url: "/gene/"
   - title: "Projects"
     url: "/project_home/"
-  - title: "Book Collections"
+  - title: "Book Collection"
     url: "/book_collection_gallery/"
   - title: "Home"
     url: "/"
