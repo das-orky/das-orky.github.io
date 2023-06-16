@@ -26,7 +26,7 @@ gallery:
     alt: "placeholder image 2"
     title: "Image 2 title caption"
   - url: /assets/images/my_pic.png
-    image_path: /assets/images/book3.jpg
+    image_path: /assets/images/book42.jpg
     alt: "placeholder image 3"
     title: "Image 3 title caption"
   - url: /assets/images/my_pic.png
@@ -37,7 +37,7 @@ gallery:
     alt: "placeholder image 1"
     title: "Image 1 title caption"
   - url: /assets/images/my_pic.png
-    image_path: /assets/images/book42.jpg
+    image_path: /assets/images/book3.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
   - url: /assets/images/my_pic.png
