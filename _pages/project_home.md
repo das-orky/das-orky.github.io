@@ -1,12 +1,16 @@
 ---
-layout: splash
+layout: single
+author_profile: false 
+classes: wide
+sidebar:
+  nav: "foo_project"
 title: "Projects"
 permalink: /project_home/
 header:
   overlay_color: "#333"
   overlay_image: /assets/images/project_home_header.jpg
   overlay_filter: 0.3
-  caption: "(CC) Creator:Denis_Azarenko"
+  caption: "(CC) Creator: Denis_Azarenko"
   actions:
     - label: "<i class='fas fa-download'></i> Share With"
       url: "https://www.google.com"
@@ -15,59 +19,59 @@ excerpt: >
   <small><a href="https://github.com/">Repos</a></small>
 feature_row_left:
   - image_path: /assets/images/project_1.jpg
-    alt: "customizable"
-    title: "Intresting Project"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML."
-    url: "/genomics/genomics_posts_1"
+    alt: "Scalable Human Genome Sequence Analysis"
+    title: "Scalable Human Genome Sequence Analysis"
+    excerpt: "A NSF project to create a large-scale genome analysis framework for Fabric testbed (underdevelopment)"
+    url: "https://github.com/MU-Data-Science/GAF"
     btn_class: "btn--info"
     btn_label: "Learn more"
   - image_path: /assets/images/project_2.jpg
-    alt: "fully responsive"
-    title: "Intresting Project"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive. I dont know just writting stuff."
-    url: "https://www.google.com"
+    alt: "Deep Network Based Naive Peak Caller"
+    title: "Deep Network Based Naive Peak Caller"
+    excerpt: "A deep neural network based classification model to identify enriched regions of a DNase-seq experiment."
+    url: "https://github.com/das-orky/naive_peak_caller"
     btn_class: "btn--info"
     btn_label: "Learn more"
   - image_path: /assets/images/project_3.jpg
-    alt: "Another Intresting Project"
-    title: "100% free"
-    excerpt: "Use it for Free everything under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "https://www.google.com"
+    alt: "Explainability"
+    title: "Explainability"
+    excerpt: "Anthropomorphising the output of a deep learning model. To untangle the reasoning behaviour of the model to call a region enriched or not."
+    url: "https://github.com/das-orky/Explainability"
     btn_class: "btn--info"
     btn_label: "Learn more"      
   - image_path: /assets/images/project_4.jpg
-    alt: "100% free"
-    title: "Another Intresting Project"
-    excerpt: "Use it for Free everything under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "https://www.google.com"
+    alt: "Darth Yader"
+    title: "Darth Yader"
+    excerpt: "Yet Another Downloader for ENCODE and Roadmap project. With emphasis on removing samples with extremely low spot score and read depth, etc., because high(good) quality data is vital for any machine technique. Bad data may lead you to the dark side."
+    url: "https://github.com/das-orky/Darth_Yader"
     btn_class: "btn--info"
     btn_label: "Learn more" 
   - image_path: /assets/images/project_5.jpg
-    alt: "100% free"
-    title: "Another Intresting Project"
-    excerpt: "Use it for Free everything under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "https://www.google.com"
+    alt: "Chromatin Accessibility"
+    title: "Chromatin Accessibility"
+    excerpt: "Re-implemented from scratch the Basset technique for identifying functional activity of a DNA sequence. The implementation is done with Pytorch, as opposed to the author's tensorflow implementation."
+    url: "https://github.com/das-orky/Basset_DNA_accessibility"
     btn_class: "btn--info"
     btn_label: "Learn more" 
   - image_path: /assets/images/project_6.jpg
-    alt: "100% free"
-    title: "Another Intresting Project"
-    excerpt: "Use it for Free everything under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "https://www.google.com"
+    alt: "Fast 2D Continuous Wavelet Transform"
+    title: "Fast 2D Continuous Wavelet Transform"
+    excerpt: "Implemented continuous wavelet transform with openMP and MPI interface for speed up in CPUs. Also a CUDA implementation for speed up in GPUs."
+    url: "https://github.com/0rky/CWT"
     btn_class: "btn--info"
     btn_label: "Learn more" 
   - image_path: /assets/images/project_7.jpg
-    alt: "100% free"
-    title: "Another Intresting Project"
-    excerpt: "Use it for Free everything under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "https://www.google.com"
+    alt: "Deep Neural Network Zoo"
+    title: "Deep Neural Network Zoo"
+    excerpt: "Implementation of models that introduce some innovative shifts in ideas. All the models are implemented using Pytorch."
+    url: "https://github.com/das-orky/dnn_zoo"
     btn_class: "btn--info"
     btn_label: "Learn more" 
   - image_path: /assets/images/project_8.jpg
-    alt: "100% free"
-    title: "Another Intresting Project"
-    excerpt: "Use it for Free everything under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "https://www.google.com"
+    alt: "Dstat for ubuntu 22.04"
+    title: "Dstat for ubuntu 22.04"
+    excerpt: "Dstat is a popular package to monitor system performance. Now it is forked into another project. To still use dstat on newer versions of ubuntu this repo is created, that takes care of dependency and bugs introduced via new ubuntu 22.04."
+    url: "https://github.com/0rky/dstat"
     btn_class: "btn--info"
     btn_label: "Learn more" 
 ---

@@ -6,7 +6,7 @@ header:
   overlay_color: "#333"
   overlay_filter: 0.3
   overlay_image: /assets/images/project_home_header.jpg
-  caption: "(CC) Creator:Denis_Azarenko"
+  caption: "(CC) Creator: Denis_Azarenko"
   actions:
     - label: "<i class='fas fa-download'></i> Share With"
       url: "https://www.google.com"

@@ -52,7 +52,7 @@ Occasionally in her travels through her children's minds Mrs. Darling found thin
 
 * Lists within lists do not break the ordered list numbering order
 * Your list styles go deep enough.
-
+### `layout: categories`
 ### Ordered -- Unordered -- Ordered
 
 1. ordered item

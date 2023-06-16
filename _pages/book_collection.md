@@ -1,11 +1,15 @@
 ---
 layout: single
-title: "My Book Collection"
+title: "Book Collection"
 permalink: /book_collection/
 author_profile: false
+sidebar:
+  nav: "foo"
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_color: "#333"
+  overlay_filter: 0.3
+  overlay_image: /assets/images/project_home_header.jpg
+  caption: "(CC) Creator: Denis_Azarenko"
   actions:
     - label: "<i class='fas fa-download'></i> Share With"
       url: "https://www.google.com"
@@ -17,7 +21,7 @@ feature_row_left:
     alt: "customizable"
     title: "The Little Prince"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter.Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content. Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/genomics/genomics_posts_1"
+    url: "/genomics/genomics_posts_1/#layout-categories"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/book.png
@@ -42,5 +46,6 @@ feature_row_left:
     btn_class: "btn--info"
     btn_label: "Learn more" 
 ---
-
+# Something
+skadha asdh
 {% include feature_row id="feature_row_left" type="left" %}
