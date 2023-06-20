@@ -200,7 +200,7 @@ gallery_full:
     title: "Image 4 title caption"
 
 ---
-# A few of my books
+# Few books from my collection
 Many of the technical books, novels, graphic novels and short stories books are not listed. Just a random list. 
 {% include gallery id="gallery" layout="third" caption="A few of my books are listed above." %}
 

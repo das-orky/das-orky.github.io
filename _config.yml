@@ -29,7 +29,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : #false  true, false (default)
-words_per_minute         : 80
+words_per_minute         : 180
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Manas Jyoti Das"
   avatar           : "/assets/images/my_pic.png"
-  bio              : "While tackling a problem, do not fear to zoom into the chaotic fractal dimensional world. But with a stopping criterion."
+  bio              : "Fearless explorer who without apprehension dive deep into the abyss of problem solving, but with a defined stopping criterion to guide the process effectively."
   location         : "Columbia, Missouri"
   email            :
   links:

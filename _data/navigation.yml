@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About Me"
-    url: "/"
+    url: "/about_me/"
   - title: "Genomics Posts"
     url: "/gene/"
   - title: "Projects"
@@ -17,7 +17,7 @@ foo_book:
       - title: "Home"
         url: "/"
       - title: "About Me"
-        url: "/"
+        url: "/about_me/"
       - title: "Genomic Posts"
         url: "/gene/"
       - title: "Projects"
@@ -33,7 +33,7 @@ foo_project:
       - title: "Home"
         url: "/"
       - title: "About Me"
-        url: "/"
+        url: "/about_me/"
       - title: "Genomic Posts"
         url: "/gene/"
       - title: "Book Collection"
@@ -42,3 +42,35 @@ foo_project:
     children:
       - title: "Top"
         url: "/project_home/"
+
+foo_about_me:
+  - title: Site Navigation
+    children:
+      - title: "Home"
+        url: "/"
+      - title: "About Me"
+        url: "/about_me/"
+      - title: "Genomic Posts"
+        url: "/gene/"
+      - title: "Projects"
+        url: "/project_home/"
+      - title: "Book Collection"
+        url: "/book_collection_gallery/"
+  - title: Go To
+    children:
+      - title: "Top"
+        url: "/about_me/"
+
+foo_all:
+  - title: Site Navigation
+    children:
+      - title: "Home"
+        url: "/"
+      - title: "About Me"
+        url: "/about_me/"
+      - title: "Genomic Posts"
+        url: "/gene/"
+      - title: "Projects"
+        url: "/project_home/"
+      - title: "Book Collection"
+        url: "/book_collection_gallery/"

@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: splash  
 title: "Genome"
 permalink: /gene/
 header:
@@ -14,18 +14,18 @@ excerpt: >
   Posts about genomics and general science that will edit your DNA only by reading it.<br />
   <small><a href="https://github.com/">Share Post</a></small>
 feature_row:
-  - image_path: /assets/images/custom.png
-    alt: "customizable"
-    title: "Selfish Genome"
-    excerpt: "This post is about why you are so stupid? and what DNA part encode your stupidity"
-    url: "/genomics/genomics_posts_1"
+  - image_path: /assets/images/project_2.jpg
+    alt: "Peak Calling"
+    title: "Peak Calling"
+    excerpt: "To find regions in DNA that are enriched. Which helps in gain valuable insights into gene regulation, epigenetic modifications, and other fundamental biological processes"
+    url: "/genomics/peak_calling"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/custom.png
-    alt: "fully responsive"
-    title: "Change your DNA!!"
-    excerpt: "Do you know crisper can cut and paste genome. Now Crisper++ can edit your live DNA!!"
-    url: "https://www.google.com"
+  - image_path: /assets/images/post_peak_visualization_1.jpg
+    alt: "peak visualization"
+    title: "Peak & Coverage Visualization"
+    excerpt: "Genomic peak  and coverage visualization is a vital component of NGS data analysis, giving insight into functional elements."
+    url: "/genomics/peak_visualization"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/custom.png
@@ -43,5 +43,9 @@ feature_row:
     btn_class: "btn--info"
     btn_label: "Learn more" 
 ---
+
+**These posts are to use as a memento of my learning process. If they prove useful to others, it would bring me great delight.**
+{: .notice--danger}
+<hr>
 
 {% include feature_row %}
