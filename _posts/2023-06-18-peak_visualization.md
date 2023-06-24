@@ -9,7 +9,7 @@ header:
   caption: "(CC) Ralphs_Fotos"
 title: "Peak & Coverage Visualization"
 excerpt: >
-  Peaks represent regions in the genome that exhibit significant signals or enrichment, visualizing peaks can give significant insight into many functional elements.<br />
+  Peaks  and coverage visualization of a genome is a vital component of NGS data analysis, giving insight into signals of enrichment and insight into functional elements.<br />
 categories:
   - Genomics
 tags:
@@ -94,7 +94,7 @@ bedGraphToBigWig input.bedGraph chrom.sizes output.bw
 Here the chrom.sizes is a path to a file which contains the chromosomes size. Chromosomes size file can be downloaded from [here](https://hgdownload.soe.ucsc.edu/goldenPath), for example for reference genome hg38 it can be downloaded from [here](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes). 
 
 
-# Global characterization
+# Global Coverage Visualization
 
 The visualization that has been focused upto now was about presenting snapshots of an individual loci. However, there are methods available that can capture the comprehensive global patterns in terms of each locus. Regulatory elements like promoters, enhancers, silencer and operators commonly known altogether as cis-regulatory elements can be close to the Transcription Start Site (TSS). To visualize the global view of enrichment near TSSs, deepTools can be used. 
 {: .text-justify}
@@ -146,8 +146,9 @@ As seen from the image there is very little enrichment around TSS of all known g
 ## Finding Friends to validate a TF
 
 Upon observing the profile plot, it becomes evident that the TF exhibits binding to only a limited number of genes. Activation of a gene typically requires the involvement of multiple cis-regulatory elements. To bolster the findings, it would be highly advantageous to discover additional evidence supporting the role of this TF. This exercise utilized a publicly available dataset from ENCODE. It is possible to conduct searches for similar experiments conducted on biosamples of the same organ and cell type, at comparable stages in their life cycles. Fortunately, there are other experiments available for this purpose. Although these similar experiments may focus on different assays, such as histone modification, they can contribute valuable insights to the overall investigation. After finding those experiments download the bigWig files associated with it. Remember, download only those files whose reference genome is similar to the reference genome used to create the TF under consideration. In this exercise three different target assays were downloaded, those are for 
-* H3K27ac, H3K27me3, H3K4me1.  
 {: .text-justify}
+* H3K27ac, H3K27me3, H3K4me1.  
+
 
 ![profile Plot with friends](/assets/images/post_peak_visualization_6.jpg)
 
@@ -155,3 +156,8 @@ Thus, **Represor H3K27me3 is not active near the TF under consideration. H3K27ac
 
 # Conclusion
 
+Visualization plays a crucial role in the analysis of results, as it enables the examination of peaks that signify enrichment and aids in unraveling the functional intricacies of a genome. By aligning these peaks with the reference genome, valuable insights can be gained regarding gene interaction with cis-regulatory elements, and trans-acting factors. To create a continuous profile that can be seamlessly integrated as a track within a genome browser, the utilization of either BigWig or bedGraph files is instrumental (the peaks file can also serve as a track).
+{: .text-justify}
+
+The assessment of read depth or coverage across the entire input sequence provides valuable insights into the global characteristics of a regulatory element that is under investigation. Through the generation of bigWig or bedGraph files from a BAM file, the coverage profile of all sequenced bases can be effectively visualized. Additionally, utilizing advanced tools such as DeepTools enables the examination of regulatory element interactions with a specific subset of genes or the entire known genes of a given species. This approach allows for a comprehensive exploration of regulatory element interactions in the genome.
+{: .text-justify}
