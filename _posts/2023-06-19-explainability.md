@@ -171,12 +171,15 @@ While the positional weight matrix may appear random in this example, it is impo
 
 # Interpreting Model One Input At A Time
 
-For a particular input, we want to know which part of the input plays a positive or negative role in forming the outcome. To understand this, one can use many explanation models mentioned above, such as Shap, DeepLift, and DeepLiftShap. However, many of these AIX methods require a baseline set of input. It is not trivial to find a baseline input for a DNA input. Techniques like saliency maps do not require a baseline to calculate the attribution. In the example below, the baseline for DeepLiftShap and DeepLift is a set of four input sequences, where in each sequence only one nucleotide is active. This is not ideal, as it ignores the interactions between nucleotides. Please read Ways To Explain topic above. Below are the output of Saliency, DeepLift and DeepLiftShap. It seems random, but please use the code in the [notebook](https://github.com/das-orky/Explainability) to know how to use these techniques in your real experiments. 
+For a particular input, we want to know which part of the input plays a positive or negative role in forming the outcome. To understand this, one can use many explanation models mentioned above, such as Shap, DeepLift, and DeepLiftShap. However, many of these XAI methods require a baseline set of input. It is not trivial to find a baseline input for a DNA input. Techniques like saliency maps do not require a baseline to calculate the attribution. In the example below, the baseline for DeepLiftShap and DeepLift is a set of four input sequences, where in each sequence only one nucleotide is active. This is not ideal, as it ignores the interactions between nucleotides. Please read Ways To Explain topic above. Below are the output of Saliency, DeepLift and DeepLiftShap. It seems random, but please use the code in the [notebook](https://github.com/das-orky/Explainability) to know how to use these techniques in your real experiments. 
 {: .text-justify}
 
 ![Model Interpretation](/assets/images/post_explainability_6.jpg){: .align-center}
 
+# Conclusion
 
+Explainability is essential for increasing the reliability and robustness of a model. By understanding whether the model is learning the features that are needed to understand the underlying feature space of the input, we can ensure that the model is making accurate and consistent predictions. However, it is important to be aware of the limitations of explainability methods. Visual explanations can be anthropomorphized, which means that they may be interpreted in a way that is not intended. Additionally, there is no consensus on how to interpret different explanations, and there is no single best way to create baselines for attribution. As a result, it is important to be critical of explainability methods and to avoid falling into a false sense of confidence.
+{: .text-justify}
 
 [1]https://arxiv.org/pdf/2107.11400.pdf
 

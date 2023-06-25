@@ -15,7 +15,7 @@ header:
 
 excerpt: >
   **That's right, under 184.95 Martian seconds relative to earth**<br />
-  <small><a href="https://github.com/">Share it</a></small>
+
 
 ---
 

@@ -1,18 +1,16 @@
 ---
 layout: splash  
-title: "Genome"
+title: "Genomics Posts"
 permalink: /gene/
 header:
   overlay_color: "#333"
   overlay_filter: 0.3
   overlay_image: /assets/images/project_home_header.jpg
   caption: "(CC) Creator: Denis_Azarenko"
-  actions:
-    - label: "<i class='fas fa-download'></i> Share With"
-      url: "https://www.google.com"
+  
 excerpt: >
-  Posts about genomics and general science that will edit your DNA only by reading it.<br />
-  <small><a href="https://github.com/">Share Post</a></small>
+  Posts about genomics and general science that will change your DNA only by reading it.<br />
+  
 feature_row:
   - image_path: /assets/images/project_2.jpg
     alt: "Peak Calling"

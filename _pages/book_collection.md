@@ -10,12 +10,10 @@ header:
   overlay_filter: 0.3
   overlay_image: /assets/images/project_home_header.jpg
   caption: "(CC) Creator: Denis_Azarenko"
-  actions:
-    - label: "<i class='fas fa-download'></i> Share With"
-      url: "https://www.google.com"
+
 excerpt: >
   My Book collection. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/">Share it</a></small>
+  
 feature_row_left:
   - image_path: /assets/images/book.png
     alt: "customizable"

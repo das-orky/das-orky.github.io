@@ -11,12 +11,10 @@ header:
   overlay_image: /assets/images/project_home_header.jpg
   overlay_filter: 0.3
   caption: "(CC) Creator: Denis_Azarenko"
-  actions:
-    - label: "<i class='fas fa-download'></i> Share With"
-      url: "https://www.google.com"
+
 excerpt: >
   All my projects belong to you now.<br />
-  <small><a href="https://github.com/">Repos</a></small>
+  
 feature_row_left:
   - image_path: /assets/images/project_1.jpg
     alt: "Scalable Human Genome Sequence Analysis"
